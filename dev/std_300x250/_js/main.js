@@ -30,7 +30,7 @@ function start() {
 	tl.from("#t3", .5, {opacity:0})
 	tl.from("#cta", .5, {opacity:0})
 
-	// tl.gotoAndPlay("f2")
+	// tl.gotoAndPlay("zoom_out")
 
 
 }

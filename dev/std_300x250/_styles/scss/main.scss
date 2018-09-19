@@ -24,6 +24,13 @@
 		@include pos(-121, 20+30);
 		// @include pos-scale(-121, 132, .57);			
 	}
+
+	#t1{
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0,0,.5);
+		@include pos(0, 0);
+	}
 	
 }
 
