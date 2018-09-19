@@ -168,9 +168,9 @@ sup {
 }
 
 .frame1 #hand {
-  -webkit-transform: translate(-121px, 20px);
-  -ms-transform: translate(-121px, 20px);
-  transform: translate(-121px, 20px);
+  -webkit-transform: translate(-121px, 50px);
+  -ms-transform: translate(-121px, 50px);
+  transform: translate(-121px, 50px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;

@@ -6,10 +6,10 @@ function start() {
 	tl.set('.frame1', {opacity:1})
 	tl.add('hand_in', "+=1")
 	tl.from("#hand", 1, {x:-290, y:97, scale:1}, "hand_in")
-	tl.to("#hero", 1, {x:-150, y:-297, scale:1}, "hand_in")
+	tl.to("#hero", 1, {x:-150, y:-297+30, scale:1}, "hand_in")
 
 	tl.add('switch_on', "+=.05")
-	tl.to("#hand", .2, {x:-140, y:26, scale:1}, "switch_on")
+	tl.to("#hand", .2, {x:-140, y:26+30, scale:1}, "switch_on")
 	tl.to("#hero #bright", .01, {opacity:1}, "switch_on")
 
 	tl.add('zoom_out', "+=.1")
