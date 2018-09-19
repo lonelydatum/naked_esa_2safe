@@ -152,8 +152,30 @@ sup {
   image-rendering: -webkit-optimize-contrast;
 }
 
-.frame1 {
-  opacity: 1;
+.frame1 #hero {
+  -webkit-transform: translate(-150px, -331px) scale(1, 1);
+  -ms-transform: translate(-150px, -331px) scale(1, 1);
+  transform: translate(-150px, -331px) scale(1, 1);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
+}
+
+.frame1 #hero #bright {
+  opacity: 0;
+}
+
+.frame1 #hand {
+  -webkit-transform: translate(-121px, 20px);
+  -ms-transform: translate(-121px, 20px);
+  transform: translate(-121px, 20px);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
 }
 
 #banner {

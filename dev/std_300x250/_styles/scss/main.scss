@@ -5,10 +5,32 @@
 
 
 .frame1 {
-	opacity: 1;
+	// opacity: 1;
+	#hero{
+		
+		@include pos-scale(-150, -331, 1);
+		// @include pos-scale(-150, -297, 1);
+		// @include pos-scale(-150, -264, 1);
+		// @include pos-scale(0, 0, 0.5);
+		
+		#bright{
+			opacity: 0;
+		}
+
+
+	}
+	
+	#hand{
+		@include pos(-121, 20);
+		// @include pos-scale(-121, 132, .57);			
+	}
+	
 }
 
+.frame2 {
+	// opacity: 1;
 
+}
 
 #banner{
 	font-size: 20px;
@@ -17,3 +39,8 @@
 	height: 250px;
 }
 
+
+
+#trace{
+	// opacity: .5;
+}
