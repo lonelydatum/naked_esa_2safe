@@ -152,6 +152,10 @@ sup {
   image-rendering: -webkit-optimize-contrast;
 }
 
+.frame1 {
+  opacity: 1;
+}
+
 .frame1 #hero {
   opacity: .7;
   -webkit-transform: translate(-35px, -116px) scale(0.52, 0.52);
