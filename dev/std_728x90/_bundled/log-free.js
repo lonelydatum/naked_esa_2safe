@@ -26,7 +26,7 @@ function start() {
 	tl.to("#hand", .6, { x: -108, y: 47, scale: .3 }, "zoom");
 	tl.to("#hero", .6, { x: -67, y: -17, scale: .55 }, "zoom");
 
-	tl.add('out', "+=3.7");
+	tl.add('out', "+=3");
 	tl.to("#t2", .5, { opacity: 0 }, 'out');
 	tl.to("#hero", .6, { x: 0, y: -5, scale: .29 }, "out");
 
