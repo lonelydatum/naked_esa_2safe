@@ -10,7 +10,7 @@ function start() {
 	tl.from("#t1", .3, {opacity:0}, .2)
 
 	
-	tl.add('hand_in', "+=2.5")
+	tl.add('hand_in', "+=2.2")
 	
 	tl.to("#hero", 1, {x:-37, y:-77, scale:.45}, "hand_in")
 	tl.to("#hand", 1, {x:-89, y:-23, scale:.38}, "hand_in")	
@@ -33,7 +33,7 @@ function start() {
 	tl.to("#hero", .6, {x:-67, y:-17, scale:.55}, "zoom")
 
 
-	tl.add('out', "+=2.6")
+	tl.add('out', "+=2.1")
 	tl.to("#t2", .5, {opacity:0}, 'out')
 	tl.to("#hero", .6, {x:0, y:-5, scale:.29}, "out")
 	
